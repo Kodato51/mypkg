@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from person_msgs.msg import Int16
+from std_msgs.msg import Int16
 
 class Talker():
     def __init__(self):
@@ -15,7 +15,7 @@ def cd():
     msg = Int16()
     msg.data = talker.n
     talker.pub.publish(msg)
-    tarker.n += 1
+    talker.n += 1
 
 node.create_timer(0.5, cd)
 rclpy.spin(node)
