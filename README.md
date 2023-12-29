@@ -8,7 +8,7 @@
 * /countupを通じて数字をカウントする。
 
 * 実行方法
-  - 以下のコマンドを端末１で実行
+ - 以下のコマンドを端末１で実行
 ```
 $ ros2 run mypkg talker
 ```
@@ -20,7 +20,7 @@ $ ros2 run mypkg talker
 * /countup からメッセージをもらい表示する。
 
 * 実行方法
-  - 別の端末２で以下のコマンドを実行
+ - 別の端末２で以下のコマンドを実行
 ```
 $ ros2 run mypkg listener
 ```
@@ -51,8 +51,9 @@ $ ros2 run mypkg listener
 
 ## talk_listn.launch.py
 * talker.pyとlistener.pyを１つの端末で立ち上げるノード。
+
 * 実行方法
-  -以下のコマンドを端末で実行
+ - 以下のコマンドを端末で実行
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 ```
@@ -83,16 +84,6 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703854690.573594552] [listener]: Listen: 18
 [listener-2] [INFO] [1703854691.073332895] [listener]: Listen: 19
 [listener-2] [INFO] [1703854691.573366422] [listener]: Listen: 20
-[listener-2] [INFO] [1703854692.073184682] [listener]: Listen: 21
-[listener-2] [INFO] [1703854692.573297094] [listener]: Listen: 22
-[listener-2] [INFO] [1703854693.074639980] [listener]: Listen: 23
-[listener-2] [INFO] [1703854693.573910906] [listener]: Listen: 24
-[listener-2] [INFO] [1703854694.075208458] [listener]: Listen: 25
-[listener-2] [INFO] [1703854694.573255323] [listener]: Listen: 26
-[listener-2] [INFO] [1703854695.074056690] [listener]: Listen: 27
-[listener-2] [INFO] [1703854695.573240776] [listener]: Listen: 28
-[listener-2] [INFO] [1703854696.074356058] [listener]: Listen: 29
-[listener-2] [INFO] [1703854696.573138959] [listener]: Listen: 30
 ```
 
 ## 必要なソフトウェア
