@@ -87,11 +87,12 @@ $ ros2 launch mypkg talk_listen.launch.py
 ```
 
 ## 必要なソフトウェア
-* ROS2
+* ROS 2
 * Python
 
 ## テスト環境
 * ubuntu 22.04 on Windows
+* ROS 2 humble
 
 ## ライセンス
 *  このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されています
