@@ -52,12 +52,47 @@ $ ros2 run mypkg listener
 ## talk_listn.launch.py
 * talker.pyとlistener.pyを１つの端末で立ち上げるノード。
 * 実行方法
+  -以下のコマンドを端末で実行
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 ```
 * 実行結果
 ```
-結果
+[INFO] [launch]: All log files can be found below /home/koryuki/.ros/log/2023-12-29-21-58-00-583967-こだてぃ-1744
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [talker-1]: process started with pid [1746]
+[INFO] [listener-2]: process started with pid [1748]
+[listener-2] [INFO] [1703854681.592234989] [listener]: Listen: 0
+[listener-2] [INFO] [1703854682.073232033] [listener]: Listen: 1
+[listener-2] [INFO] [1703854682.573693649] [listener]: Listen: 2
+[listener-2] [INFO] [1703854683.072989300] [listener]: Listen: 3
+[listener-2] [INFO] [1703854683.573254326] [listener]: Listen: 4
+[listener-2] [INFO] [1703854684.073302281] [listener]: Listen: 5
+[listener-2] [INFO] [1703854684.572947660] [listener]: Listen: 6
+[listener-2] [INFO] [1703854685.073386645] [listener]: Listen: 7
+[listener-2] [INFO] [1703854685.572987669] [listener]: Listen: 8
+[listener-2] [INFO] [1703854686.073733997] [listener]: Listen: 9
+[listener-2] [INFO] [1703854686.573257294] [listener]: Listen: 10
+[listener-2] [INFO] [1703854687.073512992] [listener]: Listen: 11
+[listener-2] [INFO] [1703854687.574741032] [listener]: Listen: 12
+[listener-2] [INFO] [1703854688.072991355] [listener]: Listen: 13
+[listener-2] [INFO] [1703854688.574621348] [listener]: Listen: 14
+[listener-2] [INFO] [1703854689.073198224] [listener]: Listen: 15
+[listener-2] [INFO] [1703854689.573286827] [listener]: Listen: 16
+[listener-2] [INFO] [1703854690.075626291] [listener]: Listen: 17
+[listener-2] [INFO] [1703854690.573594552] [listener]: Listen: 18
+[listener-2] [INFO] [1703854691.073332895] [listener]: Listen: 19
+[listener-2] [INFO] [1703854691.573366422] [listener]: Listen: 20
+[listener-2] [INFO] [1703854692.073184682] [listener]: Listen: 21
+[listener-2] [INFO] [1703854692.573297094] [listener]: Listen: 22
+[listener-2] [INFO] [1703854693.074639980] [listener]: Listen: 23
+[listener-2] [INFO] [1703854693.573910906] [listener]: Listen: 24
+[listener-2] [INFO] [1703854694.075208458] [listener]: Listen: 25
+[listener-2] [INFO] [1703854694.573255323] [listener]: Listen: 26
+[listener-2] [INFO] [1703854695.074056690] [listener]: Listen: 27
+[listener-2] [INFO] [1703854695.573240776] [listener]: Listen: 28
+[listener-2] [INFO] [1703854696.074356058] [listener]: Listen: 29
+[listener-2] [INFO] [1703854696.573138959] [listener]: Listen: 30
 ```
 
 ## 必要なソフトウェア
