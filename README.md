@@ -8,7 +8,7 @@
 * /countupを通じて数字をカウントする。
 
 * 実行方法
- - 以下のコマンドを端末１で実行
+  - 以下のコマンドを端末１で実行
 ```
 $ ros2 run mypkg talker
 ```
@@ -20,7 +20,7 @@ $ ros2 run mypkg talker
 * /countup からメッセージをもらい表示する。
 
 * 実行方法
- - 別の端末２で以下のコマンドを実行
+  - 別の端末２で以下のコマンドを実行
 ```
 $ ros2 run mypkg listener
 ```
@@ -53,7 +53,7 @@ $ ros2 run mypkg listener
 * talker.pyとlistener.pyを１つの端末で立ち上げるノード。
 
 * 実行方法
- - 以下のコマンドを端末で実行
+  - 以下のコマンドを端末で実行
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 ```
