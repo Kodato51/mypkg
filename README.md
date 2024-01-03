@@ -88,7 +88,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 
 ## 必要なソフトウェア
 * ROS 2
-* Python
+* Python 3
 
 ## テスト環境
 * ubuntu 22.04 on Windows
