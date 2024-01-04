@@ -3,9 +3,13 @@
 
 このパッケージは千葉工業大学先進工学部未来ロボティクス学科のロボットシステム学の講義で作成、使用したものです。
 
+## topic
+* countup
+  - "talker.py"で生成したメッセージを"listener.py"へ受け渡し、"listener.py"でログを表示させるための通信経路。
+
 # 使用方法
 ## talker.py
-* /countupを通じて数字をカウントする。
+* 16ビット符号付き整数を0.5秒ごとにカウントし、countupを通してパブリッシュするノード。
 
 * 実行方法
   - 以下のコマンドを端末１で実行
@@ -17,7 +21,7 @@ $ ros2 run mypkg talker
 (何も表示されない)
 ```
 ## listener.py
-* /countup からメッセージをもらい表示する。
+* /countup からメッセージをサブスクライブし、ログを表示するノード。
 
 * 実行方法
   - 別の端末２で以下のコマンドを実行
@@ -87,12 +91,12 @@ $ ros2 launch mypkg talk_listen.launch.py
 ```
 
 ## 必要なソフトウェア
-* ROS 2
-* Python 3
+* ROS 2 Humble
+* Python3
 
 ## テスト環境
 * ubuntu 22.04 on Windows
-* ROS 2 humble
+* ROS 2 Humble
 
 ## ライセンス
 *  このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されています
